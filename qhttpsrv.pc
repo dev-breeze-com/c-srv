@@ -1,0 +1,11 @@
+prefix=/usr
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: qhttpsrv
+Description: Simple Qt Http client/server library
+URL: https://github.com/dev-breeze-com/qhttpsrv
+Version: 0.9.0
+Cflags: -I${includedir}
+Libs: -L${libdir} -lqhttpsrv
+
